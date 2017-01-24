@@ -1,0 +1,82 @@
+﻿<DeploymentSnapshot xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0">
+  <Target>
+    <Database>Team4 Project</Database>
+    <Server>SBUS-DB</Server>
+    <ConnectionString>Data Source=SBUS-DB;Timeout=0</ConnectionString>
+  </Target>
+  <Options>
+    <TransactionalDeployment>false</TransactionalDeployment>
+    <PartitionDeployment>DeployPartitions</PartitionDeployment>
+    <RoleDeployment>DeployRolesRetainMembers</RoleDeployment>
+    <ProcessingOption>Default</ProcessingOption>
+    <OutputScript></OutputScript>
+    <ImpactAnalysisFile></ImpactAnalysisFile>
+    <ConfigurationSettingsDeployment>Deploy</ConfigurationSettingsDeployment>
+    <OptimizationSettingsDeployment>Deploy</OptimizationSettingsDeployment>
+    <WriteBackTableCreation>UseExisting</WriteBackTableCreation>
+  </Options>
+  <Snapshot>
+    <ObjectSnapshots>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.RelationalDataSource</Type>
+        <TimeStamp>eEMwyKtzooJzaXO3/HWRTvkyTno=11/21/2016 6:06:57 PM11/21/2016 6:06:57 PM</TimeStamp>
+        <ID>
+          <String>Team4 DB</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.DataSourceView</Type>
+        <TimeStamp>ie8ylpeU7XNMljp3+hCegSZheBQ=11/21/2016 6:07:13 PM11/21/2016 6:07:13 PM</TimeStamp>
+        <ID>
+          <String>Team4 DB</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>fSaXeJ6rCAho2vqlbDkWjVU5Z08=11/21/2016 6:48:55 PM11/21/2016 6:07:47 PM</TimeStamp>
+        <ID>
+          <String>Loan Dimension</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>x9axcl18VuNHCKs3/Idlg4JKZgY=11/21/2016 6:25:22 PM11/21/2016 6:07:47 PM</TimeStamp>
+        <ID>
+          <String>Borrower Dimension</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>5BDy3RBagCejWKD7El4V8xttVH4=11/21/2016 6:33:20 PM11/21/2016 6:07:47 PM</TimeStamp>
+        <ID>
+          <String>Grade Dimension</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>f9JlZs1y9bjXENAKcNstjRN79sk=11/21/2016 6:57:29 PM11/21/2016 6:07:47 PM</TimeStamp>
+        <ID>
+          <String>Time Dimension</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Cube</Type>
+        <TimeStamp>R8nQCVHCasEhXn6uDuchLKGQQcE=11/21/2016 6:57:23 PM11/21/2016 6:07:47 PMuSNG4UfnyHDbW7EBFA4pDS+oeew=11/21/2016 6:07:47 PM11/21/2016 6:07:47 PM</TimeStamp>
+        <ID>
+          <String>Team4 DB</String>
+        </ID>
+      </ObjectSnapshot>
+    </ObjectSnapshots>
+    <DatabaseSnapshot>
+      <Type>Microsoft.AnalysisServices.Database</Type>
+      <TimeStamp>+Tx+TKgszXQ8gwrkIpY8YgUz1c0=11/21/2016 5:13:01 PM11/21/2016 5:13:00 PM</TimeStamp>
+      <ID>
+        <String>Team4 Project</String>
+      </ID>
+    </DatabaseSnapshot>
+    <Granularity>Coarse</Granularity>
+  </Snapshot>
+  <AssemblyLocations />
+  <ProcessingComplete>true</ProcessingComplete>
+  <LastDeployed>2016-11-22T00:57:42.77Z</LastDeployed>
+</DeploymentSnapshot>

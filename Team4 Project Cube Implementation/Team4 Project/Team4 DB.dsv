@@ -1,0 +1,197 @@
+﻿<DataSourceView xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="762045af-fd54-4385-a8cd-5471a5e88bfa" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Team4 DB</ID>
+  <Name>Team4 DB</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:CurrentLayout</Name>
+      <Value>_ALL_TABLES_</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:SchemaRestriction</Name>
+      <Value></Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:RetrieveRelationships</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:Layouts</Name>
+      <Value>
+        <Layouts xmlns="">
+          <Diagram>
+            <Name>_ALL_TABLES_</Name>
+            <DiagramLayout />
+            <ShowRelationshipNames>False</ShowRelationshipNames>
+            <UseDiagramDefaultLayout>True</UseDiagramDefaultLayout>
+            <DiagramViewPortLeft>0</DiagramViewPortLeft>
+            <DiagramViewPortTop>0</DiagramViewPortTop>
+            <DiagramBoundingLeft>0</DiagramBoundingLeft>
+            <DiagramBoundingTop>0</DiagramBoundingTop>
+            <DiagramZoom>100</DiagramZoom>
+          </Diagram>
+        </Layouts>
+      </Value>
+    </Annotation>
+  </Annotations>
+  <DataSourceID>Team4 DB</DataSourceID>
+  <Schema>
+    <xs:schema id="Team4_x0020_DB" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop">
+      <xs:element name="Team4_x0020_DB" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:design-time-name="4814eaf3-7768-4a78-b18c-f807bfece69c">
+        <xs:complexType>
+          <xs:choice minOccurs="0" maxOccurs="unbounded">
+            <xs:element name="dbo_LoanFact_x0024_" msprop:design-time-name="1dd81df4-d878-4580-9fec-0edae1d121dc" msprop:DbTableName="LoanFact$" msprop:FriendlyName="LoanFact$" msprop:DbSchemaName="dbo" msprop:TableType="Table">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="load_id" msprop:design-time-name="b8ea863d-56de-49e7-8a2a-fa6f367718d9" msprop:DbColumnName="load_id" msprop:FriendlyName="load_id" type="xs:double" />
+                  <xs:element name="member_id" msprop:design-time-name="e0a07abd-c0ad-49a0-8d20-981fe180233f" msprop:DbColumnName="member_id" msprop:FriendlyName="member_id" type="xs:double" minOccurs="0" />
+                  <xs:element name="time_id" msprop:design-time-name="acff7a10-93b6-46c7-ad8f-7174cc0cf822" msprop:DbColumnName="time_id" msprop:FriendlyName="time_id" type="xs:double" minOccurs="0" />
+                  <xs:element name="loan_amnt" msprop:design-time-name="6887dbd7-4a20-45b0-849a-25d844454ae8" msprop:DbColumnName="loan_amnt" msprop:FriendlyName="loan_amnt" type="xs:double" minOccurs="0" />
+                  <xs:element name="funded_amnt" msprop:design-time-name="e6a3c46f-7fd3-43a6-ba3f-531f31bfa0b3" msprop:DbColumnName="funded_amnt" msprop:FriendlyName="funded_amnt" type="xs:double" minOccurs="0" />
+                  <xs:element name="int_rate" msprop:design-time-name="616f4f7a-161c-4e42-8d2e-fab09d640230" msprop:DbColumnName="int_rate" msprop:FriendlyName="int_rate" type="xs:double" minOccurs="0" />
+                  <xs:element name="Grade_Id" msprop:design-time-name="f2de0633-1e55-45ff-8e51-6e91f613b3a6" msprop:DbColumnName="Grade_Id" msprop:FriendlyName="Grade_Id" type="xs:double" minOccurs="0" />
+                  <xs:element name="No_of_Loans" msprop:design-time-name="37f5a837-7c3f-4c15-943d-e4942ab58715" msprop:DbColumnName="No_of_Loans" msprop:FriendlyName="No_of_Loans" type="xs:double" minOccurs="0" />
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="dbo_BorrowerDimension_x0024_" msprop:design-time-name="92874287-aa32-45d6-a522-8a9199334c1e" msprop:DbTableName="BorrowerDimension$" msprop:FriendlyName="BorrowerDimension$" msprop:DbSchemaName="dbo" msprop:TableType="Table">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="member_id" msprop:design-time-name="2eed1280-a8cb-42d8-bb18-023251e1979a" msprop:DbColumnName="member_id" msprop:FriendlyName="member_id" type="xs:double" />
+                  <xs:element name="emp_title" msprop:design-time-name="f011e776-d9b8-4214-b316-5f0d01ba407b" msprop:DbColumnName="emp_title" msprop:FriendlyName="emp_title" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="255" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="home_ownership" msprop:design-time-name="d9b78575-e7f7-4107-8618-15522cf41b85" msprop:DbColumnName="home_ownership" msprop:FriendlyName="home_ownership" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="255" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="annual_inc" msprop:design-time-name="53dda9fc-dbe5-47bf-85b1-a72d8636b2e9" msprop:DbColumnName="annual_inc" msprop:FriendlyName="annual_inc" type="xs:double" minOccurs="0" />
+                  <xs:element name="zip_code" msprop:design-time-name="cf26a53e-9a78-4342-875b-367dc9c5e4e6" msprop:DbColumnName="zip_code" msprop:FriendlyName="zip_code" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="255" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="addr_state" msprop:design-time-name="703562f6-ea66-4ac8-b5b3-f2cddaa8ecd5" msprop:DbColumnName="addr_state" msprop:FriendlyName="addr_state" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="255" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="dbo_TimeDimension_x0024_" msprop:design-time-name="63e0cb98-e8cc-4032-83bf-d0ad88227c5c" msprop:DbTableName="TimeDimension$" msprop:FriendlyName="TimeDimension$" msprop:DbSchemaName="dbo" msprop:TableType="Table">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="time_id" msprop:design-time-name="572cbc85-8918-448d-81cd-01cb8899f2f7" msprop:DbColumnName="time_id" msprop:FriendlyName="time_id" type="xs:double" />
+                  <xs:element name="load_id" msprop:design-time-name="e78233e2-9cd0-4321-aa50-9e9789587a9a" msprop:DbColumnName="load_id" msprop:FriendlyName="load_id" type="xs:double" minOccurs="0" />
+                  <xs:element name="issue_d" msprop:design-time-name="f20e3ca4-94e3-4207-b27d-8d7936015147" msprop:DbColumnName="issue_d" msprop:FriendlyName="issue_d" type="xs:dateTime" minOccurs="0" />
+                  <xs:element name="Day" msprop:design-time-name="eaeef67b-a8fb-4be2-b59e-3bb3877ccbdb" msprop:DbColumnName="Day" msprop:FriendlyName="Day" type="xs:double" minOccurs="0" />
+                  <xs:element name="Month" msprop:design-time-name="59b88fc8-a456-4ab1-af02-2d0780ad27cc" msprop:DbColumnName="Month" msprop:FriendlyName="Month" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="255" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="Year" msprop:design-time-name="4c3508a5-96f8-497c-96b9-d609b9372523" msprop:DbColumnName="Year" msprop:FriendlyName="Year" type="xs:double" minOccurs="0" />
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="dbo_GradeDimension_x0024_" msprop:design-time-name="14b27243-4392-4d8a-a764-589ca6952da0" msprop:DbTableName="GradeDimension$" msprop:FriendlyName="GradeDimension$" msprop:DbSchemaName="dbo" msprop:TableType="Table">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="Grade_Id" msprop:design-time-name="32a6b5e2-cc79-4f34-b6dc-2fc984855f05" msprop:DbColumnName="Grade_Id" msprop:FriendlyName="Grade_Id" type="xs:double" />
+                  <xs:element name="Grade" msprop:design-time-name="0c8610e7-1dd3-4a30-902b-0020c22ea5c5" msprop:DbColumnName="Grade" msprop:FriendlyName="Grade" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="255" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="dbo_LoanDimension_x0024_" msprop:design-time-name="0c40c710-181b-4a80-aa1b-6e1f7d33ff7b" msprop:DbTableName="LoanDimension$" msprop:FriendlyName="LoanDimension$" msprop:DbSchemaName="dbo" msprop:TableType="Table">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="id" msprop:design-time-name="b479d201-2453-4198-a62e-f9a6d8d6ae3f" msprop:DbColumnName="id" msprop:FriendlyName="id" type="xs:double" />
+                  <xs:element name="application_type" msprop:design-time-name="d267d2fb-a551-45ea-a3a5-6a96ee431947" msprop:DbColumnName="application_type" msprop:FriendlyName="application_type" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="255" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="purpose" msprop:design-time-name="ab4ee90e-4931-4b62-a81e-5ca2ebf3a3dd" msprop:DbColumnName="purpose" msprop:FriendlyName="purpose" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="255" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="desc" msprop:design-time-name="80347546-72e1-4f17-9dfb-f727df4add0f" msprop:DbColumnName="desc" msprop:FriendlyName="desc" type="xs:string" minOccurs="0" />
+                  <xs:element name="term" msprop:design-time-name="734dd1ce-8baa-4787-8816-5d574f6b2e78" msprop:DbColumnName="term" msprop:FriendlyName="term" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="255" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+          </xs:choice>
+        </xs:complexType>
+        <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//dbo_BorrowerDimension_x0024_" />
+          <xs:field xpath="member_id" />
+        </xs:unique>
+        <xs:unique name="dbo_TimeDimension_x0024__Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//dbo_TimeDimension_x0024_" />
+          <xs:field xpath="time_id" />
+        </xs:unique>
+        <xs:unique name="dbo_GradeDimension_x0024__Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//dbo_GradeDimension_x0024_" />
+          <xs:field xpath="Grade_Id" />
+        </xs:unique>
+        <xs:unique name="dbo_LoanDimension_x0024__Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//dbo_LoanDimension_x0024_" />
+          <xs:field xpath="id" />
+        </xs:unique>
+        <xs:keyref name="FK_LoanFact_x0024__TimeDimension_x0024_" refer="dbo_TimeDimension_x0024__Constraint1">
+          <xs:selector xpath=".//dbo_LoanFact_x0024_" />
+          <xs:field xpath="time_id" />
+        </xs:keyref>
+        <xs:keyref name="FK_LoanFact_x0024__LoanFact_x0024_" refer="dbo_GradeDimension_x0024__Constraint1">
+          <xs:selector xpath=".//dbo_LoanFact_x0024_" />
+          <xs:field xpath="Grade_Id" />
+        </xs:keyref>
+        <xs:keyref name="FK_LoanFact_x0024__BorrowerDimension_x0024_" refer="Constraint1">
+          <xs:selector xpath=".//dbo_LoanFact_x0024_" />
+          <xs:field xpath="member_id" />
+        </xs:keyref>
+        <xs:keyref name="FK_LoanFact_x0024__LoanDimension_x0024_" refer="dbo_LoanDimension_x0024__Constraint1">
+          <xs:selector xpath=".//dbo_LoanFact_x0024_" />
+          <xs:field xpath="load_id" />
+        </xs:keyref>
+      </xs:element>
+    </xs:schema>
+    <Team4_x0020_DB xmlns="" />
+  </Schema>
+</DataSourceView>
